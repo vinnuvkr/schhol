@@ -159,10 +159,12 @@ body {
     position: relative;
 }
 
-.bottom-header .logo a h2 {
+.bottom-header .logo a p {
   text-decoration: none !important;
  text-decoration-line: none;
   text-transform: uppercase;
+ font-weight: 600;
+ font-size: 30px;
   color: #222;
 }
 .bottom-header ul {
@@ -454,37 +456,6 @@ body {
     margin-left: calc(var(--bs-gutter-x)/ -2);
 }
 
-.counts .count-box i {
-    position: absolute;
-    top: -28px;
-    left: 50%;
-    transform: translateX(-50%);
-    font-size: 24px;
-    background: #106eea;
-    color: #fff;
-    width: 56px;
-    height: 56px;
-    line-height: 0;
-    border-radius: 50px;
-    border: 5px solid #fff;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.bi::before {
-    display: inline-block;
-    font-family: bootstrap-icons !important;
-    font-style: normal;
-    font-weight: normal !important;
-    font-variant: normal;
-    text-transform: none;
-    line-height: 1;
-    vertical-align: -.125em;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-}
-
 .counts .count-box {
     padding: 30px;
     margin: 20px;
@@ -537,27 +508,6 @@ body {
     margin-right: calc(var(--bs-gutter-x)/ -2);
     margin-left: calc(var(--bs-gutter-x)/ -2);
 }
-
-.services .icon-box .icon {
-    margin: 0 auto;
-    width: 64px;
-    height: 64px;
-    background: #f1f6fe;
-    border-radius: 4px;
-    border: 1px solid #deebfd;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 20px;
-    transition: ease-in-out 0.3s;
-}
-
-.services .icon-box .icon i {
-    color: #3b8af2;
-    font-size: 28px;
-    transition: ease-in-out 0.3s;
-}
-
 .services .icon-box h4 a {
     font-weight: 700;
     margin-bottom: 15px;
